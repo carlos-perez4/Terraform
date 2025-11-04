@@ -87,8 +87,8 @@ resource "docker_container" "flask" {
   ]
 
   ports {
-    internal = 5001
-    external = 5001
+    internal = 5000
+    external = 5000
   }
 
   networks_advanced {
